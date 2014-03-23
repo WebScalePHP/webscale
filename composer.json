@@ -14,7 +14,7 @@
         ]
     },
     "require": {
-        "webscale/serializer",
+        "webscale/serializer": "1.*",
         "psr/log": "1.*"
     },
     "require-dev": {
