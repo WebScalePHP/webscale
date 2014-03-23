@@ -1,0 +1,24 @@
+{
+    "name": "webscale/webscale",
+    "type": "library",
+    "description": "Cache abstraction library",
+    "keywords": ["cache", "caching", "redis", "memcache", "memcached", "couchbase", "apc", "apcu", "xcache", "wincache", "session", "performance"],
+    "homepage": "https://github.com/webscalePHP/webscale",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "WebScale\\": "lib"
+        },
+        "classmap": [
+            "stubs/"
+        ]
+    },
+    "require": {
+        "webscale/serializer",
+        "psr/log": "1.*"
+    },
+    "require-dev": {
+        "predis/predis": "0.8.*",
+        "phpunit/phpunit": "3.7.*"
+    }
+}
