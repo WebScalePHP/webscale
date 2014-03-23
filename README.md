@@ -13,7 +13,7 @@ WebScale has currently drivers for following data stores:
 
 ## How can I contribute? ##
 - Fork, hack, commit and push. Do __not__ put your name to source code files (@author tags).
-- Share your (non-PSR-6) ideas on the issues tab (or Twitter).
+- Share your (non-PSR-6) ideas on the issues tab.
 - Go [here](https://groups.google.com/forum/?fromgroups#!forum/php-fig) and push PSR-6 forward.
 
 ## Usage ##
