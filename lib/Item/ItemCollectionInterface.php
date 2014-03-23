@@ -12,7 +12,7 @@ interface ItemCollectionInterface extends IteratorAggregate
 {
     public function pipe($callable /* + stuff you want to inject to $callable */);
 
-    public function getItem($item);
+    public function getItem($key);
 
     public function clear();
 }

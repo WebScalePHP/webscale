@@ -88,7 +88,7 @@ class ItemCollection implements ItemCollectionInterface
         }, $this->items);
     }
 
-    public function getItem($item)
+    public function getItem($key)
     {
         $this->fetch();
         return $this->items[$item];

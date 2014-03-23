@@ -116,7 +116,7 @@ $mainpool->clear();
 ```
 
 ### Piping multiple operations at once ###
-This functionality should be considered experimental. It (obviously) is faked with some drivers. Not part of the current PSR-6 draft.
+This functionality should be considered experimental. It is (obviously) faked with some drivers. Not part of the current PSR-6 draft.
 ```php
 $collection = $pool->getItems(array('foo', 'bar', 'baz'));
 
